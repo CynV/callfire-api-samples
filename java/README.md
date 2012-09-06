@@ -3,10 +3,10 @@ Java API-Samples
 
 Text Broadcast
 --------------
-*SimpleTextBroadcastSample
-*RegistrationTextBroacastSample
+* SimpleTextBroadcastSample
+* RegistrationTextBroacastSample
 
 Voice Broadcast
 ---------------
-*SimpleTextBroadcastSample
-*WeeklyPtaVoiceBroadcastSample
+* SimpleTextBroadcastSample
+* WeeklyPtaVoiceBroadcastSample
