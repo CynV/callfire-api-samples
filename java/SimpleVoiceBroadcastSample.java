@@ -20,6 +20,7 @@ import com.callfire.api.service.wsdl.CallServicePortType;
 import com.callfire.api.service.wsdl.ServiceFault;
 import com.callfire.api.service.wsdl.TextServicePortType;
 import com.callfire.api.service.wsdl.http.soap12.CallFireApi;
+import com.callfire.api.service.wsdl.http.soap12.CallFireApi.ServiceState;
 import com.callfire.api.service.xsd.ActionQuery;
 import com.callfire.api.service.xsd.CallQueryResult;
 import com.callfire.api.service.xsd.CreateSound;
@@ -51,7 +52,7 @@ public class SimpleVoiceBroadcastSample {
 		user = propertiesConfig.getString("user");
 		password = propertiesConfig.getString("password");
 		maxWaitMs = propertiesConfig.getInt("max_wait_ms");
-		callFireApi = new CallFireApi(user, password);
+		callFireApi = new CallFireApi(user, password, ServiceState.DEVELOPMENT);
 		callService = callFireApi.getCallServicePort();
 	}
 	/**

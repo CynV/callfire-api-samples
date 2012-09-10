@@ -26,6 +26,7 @@ import com.callfire.api.service.wsdl.BroadcastServicePortType;
 import com.callfire.api.service.wsdl.ServiceFault;
 import com.callfire.api.service.wsdl.TextServicePortType;
 import com.callfire.api.service.wsdl.http.soap12.CallFireApi;
+import com.callfire.api.service.wsdl.http.soap12.CallFireApi.ServiceState;
 import com.callfire.api.service.xsd.ActionQuery;
 import com.callfire.api.service.xsd.BroadcastCommand;
 import com.callfire.api.service.xsd.BroadcastRequest;
@@ -61,7 +62,7 @@ public class RegistrationTextBroadcastSample {
 		user = propertiesConfig.getString("user");
 		password = propertiesConfig.getString("password");
 		maxWaitMs = propertiesConfig.getInt("max_wait_ms");
-		callFireApi = new CallFireApi(user, password);
+		callFireApi = new CallFireApi(user, password, ServiceState.DEVELOPMENT);
 		broadcastService = callFireApi.getBroadcastServicePort();
 		textService = callFireApi.getTextServicePort();
 	}
