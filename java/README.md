@@ -4,9 +4,9 @@ The following API samples are included here. Before running these samples, be su
 ### Running the Sample Clients ###
 1. Modify `samples.properties`
 1. execute the included run script followed by the name of the sample client to be run. For example:
-
-     ./run.sh SimpleTextBroadcastSample
-
+```
+    ./run.sh SimpleTextBroadcastSample
+```
 ## Text Broadcast ##
 ### SimpleTextBroadcastSample ###
 A very simple introduction to sending a text message using CallFire's API.
