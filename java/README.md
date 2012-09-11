@@ -1,8 +1,8 @@
 # Java API-Samples #
-The following API samples are included here. Before running these samples, be sure to modify the file `samples.properties` with valid credentials and contacts. Note that all samples are configured to connect to CallFire's developer API. They will need to be modified to use the production API before being used in any real situation.
+The following API samples are included here. Before running these samples, be sure to modify the file `sample.properties` with valid credentials and contacts. Note that all samples are configured to connect to CallFire's developer API. They will need to be modified to use the production API before being used in any real situation.
 
 ### Running the Sample Clients ###
-1. Modify `samples.properties`
+1. Modify `sample.properties`
 1. Execute the included run script followed by the name of the sample client to be run. For example: `./run.sh SimpleTextBroadcastSample`
 
 ## Text Broadcast ##
