@@ -4,6 +4,9 @@ require 'lib/PestXML.php';
 $pest = new PestXML('http://dev.callfire.com/api/1.0/rest');
 $pest->setupAuth("valid_username", "valid_password");
 
+// note the "to" element should be a comma-separated list
+// of valid contact numbers where the text message will
+// be sent.
 $params = array(
 		'message' => 'This is a test message',
 		'to' => 'valid_number1,valid_number2...'
