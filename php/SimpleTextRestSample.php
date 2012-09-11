@@ -6,7 +6,7 @@ $pest->setupAuth("valid_username", "valid_password");
 
 $params = array(
 		'message' => 'This is a test message',
-		'to' => '12132212227,12132212228'
+		'to' => 'valid_number1,valid_number2...'
 );
 
 $thingsXml = $pest->post('/text/send', $params);
