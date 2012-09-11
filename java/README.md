@@ -1,5 +1,5 @@
 # Java API-Samples #
-The following API samples are included here. By default, all samples are configured to connect to CallFire's developer API. They will need to be configured to use the production API before being used in any real situation.
+The following API samples are included here. Before running these samples, be sure to modify the file samples.properties with valid credentials and contacts. Note that all samples are configured to connect to CallFire's developer API. They will need to be modified to use the production API before being used in any real situation.
 
 ## Text Broadcast ##
 ### SimpleTextBroadcastSample ###
