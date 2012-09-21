@@ -18,3 +18,6 @@ A very simple introduction to sending a voice broadcast using CallFire's API.
 
 ### WeeklyPtaVoiceBroadcastSample ###
 A more involved example created around the fictitious story of a K-12 school that needs to send parents weekly PTA meeting reminders.
+
+## Polling versus Postbacks ##
+It is possible to register for notifications; however, all of the samples currently use a polling mechanism to check for status. Please go to http://callfire.com/help to request help using a postback notification mechanism.
